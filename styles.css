@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.main_container{
+	width:400px;
+	height:600px;
+	padding:10px;
+	background-color:lightgray;
+	box-shadow: 5px 5px 5px 5px lightgray ;
+	box-sizing:content-box;
+	text-align:center;
+}
+.card-image{
+	width: 100%; 
+    border-radius: 8px;
+}
+main_body{
+	text-align:center;
+	float:right;
+}
+.btn{
+	padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+.btn:hover{
+	color:darkgreen;
+	border-radius:50px;
+}
